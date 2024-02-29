@@ -26,7 +26,7 @@ const AuthPage = (auth) => {
 
             <div className='relative w-full pb-2'>
                 <input type="text" placeholder="Enter username" className='bg-gray-300 text-[#000000] font-sans outline-none border-none rounded-lg px-4 py-3 w-full mb-3'/>
-                <button type="submit" className='w-full h-14 text-white bg-orange-500 rounded-lg font-sans border-none outline-none cursor-pointer transition-all duration-300 hover:brightness-[90%]'>Sign in</button>
+                <button type="submit" className='w-full h-14 text-white bg-purple-500 rounded-lg font-sans border-none outline-none cursor-pointer transition-all duration-300 hover:brightness-[90%]'>Sign in</button>
             </div>
         </form>
     </div>
