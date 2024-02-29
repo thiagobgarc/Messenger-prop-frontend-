@@ -6,10 +6,8 @@ import ChatsPage from './ChatsPage'
 function App() {
   const [user, setUser] = useState(undefined)
 
-  if (!user) {
-    return <AuthPage onAuth={user => setUser(user)} />
-  } else {
-    return <ChatsPage user={user} />
+  {
+    return !user ? <AuthPage onAuth={setUser} /> : <ChatsPage user={user} />
   }
 }
 
